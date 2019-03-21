@@ -1,6 +1,5 @@
 package calc;
-
-//test
+//init test
 
 import static org.junit.Assert.*;
 
