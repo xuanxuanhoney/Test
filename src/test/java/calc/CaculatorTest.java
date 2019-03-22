@@ -41,7 +41,8 @@ public class CaculatorTest {
 	public void testAdd2() {
 		assertEquals(9, calc.add(3,6));
 	}
-//	public void testAbs(){
-//		assertEquals(6, calc.abs(6));
-//	}
+	@Test
+	public void testAbs(){
+		assertEquals(6, calc.abs(6));
+	}
 }
