@@ -41,6 +41,6 @@ public class CaculatorTest {
 	}
 	@Test
 	public void testAbs(){
-		assertEquals(6, calc.abs(-6));
+		assertEquals(6, calc.abs(6));
 	}
 }
