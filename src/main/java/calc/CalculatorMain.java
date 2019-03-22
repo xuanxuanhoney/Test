@@ -7,6 +7,7 @@ public class CalculatorMain {
 	public int add(int a, int b){
 		return a+b;
 	}
+<<<<<<< .merge_file_a04708
 	
 //	public int sub(int a, int b) {
 //		return a-b;
@@ -22,4 +23,7 @@ public class CalculatorMain {
 //		}
 //		return a/b;
 //	}
+=======
+	// bth tu edits
+>>>>>>> .merge_file_a15736
 }
