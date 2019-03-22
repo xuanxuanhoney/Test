@@ -41,4 +41,7 @@ public class CaculatorTest {
 	public void testAdd2() {
 		assertEquals(9, calc.add(3,6));
 	}
+	public void testSub2() {
+		assertEquals(3, calc.abs(3));
+	}
 }
