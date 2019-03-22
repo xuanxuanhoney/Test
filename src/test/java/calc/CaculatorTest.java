@@ -49,4 +49,8 @@ public class CaculatorTest {
 	public void testAbs2() {
 		assertEquals(7, calc.abs(7));
 	}
+	@Test
+	public void testSqrt(){
+		assertEquals(4.472, calc.sqrt(20, 3));
+	}
 }
