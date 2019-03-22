@@ -53,4 +53,8 @@ public class CaculatorTest {
 	public void testArs(){
 		assertEquals(4, calc.ars(2));
 	}
+	@Test
+	public void testAddsub() {
+		assertEquals(9 , calc.add(calc.sub(5, 1),calc.add(2, 3)));
+	}
 }
