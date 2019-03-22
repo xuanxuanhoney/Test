@@ -22,5 +22,14 @@ public class CalculatorMain {
 		}
 		return a/b;
 	}
-
+	public int abs(int a) {
+		int b=0;
+		if (a>=0) {
+			b=a;
+		}
+		else {
+			b=-a;
+		}
+		return b;
+	}
 }
