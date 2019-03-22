@@ -1,7 +1,5 @@
 package calc;
 
-//test
-
 public class CalculatorMain {
 	public CalculatorMain(){
 		
