@@ -38,7 +38,10 @@ public class CaculatorTest {
 		assertEquals(30, calc.add(calc.mul(5, 5), calc.div(10, 2)));
 	}
 	@Test
-	public void testAbs(){
-		assertEquals(6, calc.abs(6));
+	public void testAdd2() {
+		assertEquals(9, calc.add(3,6));
 	}
+//	public void testAbs(){
+//		assertEquals(6, calc.abs(6));
+//	}
 }
