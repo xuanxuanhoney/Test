@@ -1,5 +1,7 @@
 package calc;
 
+//ttt
+
 import static org.junit.Assert.*;
 
 import org.junit.BeforeClass;
@@ -50,7 +52,15 @@ public class CaculatorTest {
 		assertEquals(7, calc.abs(7));
 	}
 	@Test
-	public void testSqrt(){
-		assertEquals(5, calc.sqrt(25, 3));
+	public void testArs(){
+		assertEquals(4, calc.ars(2));
+	}
+	@Test
+	public void testAddsub() {
+		assertEquals(9 , calc.add(calc.sub(5, 1),calc.add(2, 3)));
+	}
+	@Test
+	public void testArs2(){
+		assertEquals(9, calc.ars(3));
 	}
 }
