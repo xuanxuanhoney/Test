@@ -1,7 +1,5 @@
 package calc;
 
-//OOO
-
 import java.math.BigDecimal;
 
 public class CalculatorMain {
@@ -36,6 +34,11 @@ public class CalculatorMain {
 		}
 		return b;
 	}
+	
+	public int ars(int a) {
+		return a*a;
+	}
+	
 	public double sqrt(int x, int y){
 		double[] arr = new double[y];
 		if(y >0){
@@ -47,7 +50,7 @@ public class CalculatorMain {
 
 	}
 	/**
-	 * ¼ÆËãÕûÊýÎ»
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»
 	 */
 	public static int sq(int x){
 		if( x == 1){
@@ -68,7 +71,7 @@ public class CalculatorMain {
 	}
 	
 	/**
-	 * ¼ÆËãÒª±£Áô¼¸Î»Ð¡Êý
+	 * ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»Ð¡ï¿½ï¿½
 	 */
 	public static double[] sc(int y){
 		double[] arr = new double[y];
@@ -85,7 +88,7 @@ public class CalculatorMain {
 	}
 	
 	/**
-	 * ¿ª¸ùºÅ
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	 */
 	public static double sb(int x, double t, double[] arr){
 		double tmp = t;
