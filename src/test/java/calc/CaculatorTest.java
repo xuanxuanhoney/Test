@@ -53,4 +53,8 @@ public class CaculatorTest {
 	public void testSqrt(){
 		assertEquals(5, calc.sqrt(25, 3));
 	}
+	@Test
+	public void testArs(){
+		assertEquals(4, calc.ars(2));
+	}
 }
