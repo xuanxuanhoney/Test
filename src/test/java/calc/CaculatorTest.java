@@ -45,4 +45,8 @@ public class CaculatorTest {
 	public void testAbs() {
 		assertEquals(3, calc.abs(3));
 	}
+	@Test
+	public void testAbs2() {
+		assertEquals(7, calc.abs(7));
+	}
 }
